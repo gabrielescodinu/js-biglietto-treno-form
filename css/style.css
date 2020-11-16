@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Raleway", sans-serif;
+  margin: auto;
+  width: 40%;
+  background-color: rgb(185, 20, 100);
+
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  color: white;
+  margin-top: 20px;
+}
+
+.card-rounded {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+label {
+  display: block;
+  color: rgb(185, 20, 100);
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+}
+.col {
+  text-align: center;
+}
+input {
+  padding: 10px;
+  border: 2px solid rgb(185, 20, 100);
+  border-radius: 5px;
+}
+select {
+  padding: 10px;
+  border: 2px solid rgb(185, 20, 100);
+  border-radius: 5px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button {
+  margin: 20px 0px;
+  padding: 10px;
+  background: lightgrey;
+  color: rgb(185, 20, 100);
+  font-size: 20px;
+  font-weight: bold;
+}
+#btn-genera {
+  margin-left: 200px;
+}
+#btn-annulla {
+  margin-right: 200px;
+}
