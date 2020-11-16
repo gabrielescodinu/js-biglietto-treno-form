@@ -72,10 +72,16 @@ button {
   align-items: center;
   justify-content: space-between;
 }
-
 #biglietto div {
+  padding: 10px;
 }
-
 #nome-passeggero {
   background: lightgrey;
+}
+.dettagli {
+  background: white;
+  padding-left: 20px;
+}
+h3 {
+  padding-top: 20px;
 }
