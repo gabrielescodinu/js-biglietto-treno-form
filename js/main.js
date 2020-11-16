@@ -3,6 +3,7 @@ var template = '<div id="nome-passeggero"></div><div id="sconto"></div><div id="
 var btnGenera = document.getElementById('btn-genera');
 var btnAnnulla = document.getElementById('btn-annulla');
 
+// evento genera biglietto
 btnGenera.addEventListener("click", function () {
     document.getElementById('biglietto').innerHTML = template;
 
@@ -49,11 +50,12 @@ btnGenera.addEventListener("click", function () {
     // Inserire dati nel BIGLIETTO
     elName.innerHTML = fullName;
     elSconto.innerHTML = offer;
-    elTicket.innerHTML = "€" + ticketPrice;
+    elTicket.innerHTML = "€" + ticketPrice.toFixed(2);
     elCarrozza.innerHTML = numberCarrozza;
     elCodice.innerHTML = codiceCp;
 })
 
+// evento annulla biglietto
 btnAnnulla.addEventListener("click", function () {
     // Annulla
     console.log("Annula operazione");
