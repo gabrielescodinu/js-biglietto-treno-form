@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body{
   font-family: "Raleway", sans-serif;
   margin: auto;
@@ -19,6 +18,16 @@ h2 {
   margin-top: 20px;
 }
 
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.col {
+  text-align: center;
+}
+
+/* card rounded */
 .card-rounded {
   background: white;
   padding: 20px;
@@ -31,9 +40,6 @@ label {
   text-align: center;
   padding: 20px;
 }
-.col {
-  text-align: center;
-}
 input {
   padding: 10px;
   border: 2px solid rgb(185, 20, 100);
@@ -44,13 +50,6 @@ select {
   border: 2px solid rgb(185, 20, 100);
   border-radius: 5px;
 }
-
-.row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 button {
   margin: 20px 0px;
   padding: 10px;
@@ -64,4 +63,19 @@ button {
 }
 #btn-annulla {
   margin-right: 200px;
+}
+
+/* biglietto */
+#biglietto {
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#biglietto div {
+}
+
+#nome-passeggero {
+  background: lightgrey;
 }
